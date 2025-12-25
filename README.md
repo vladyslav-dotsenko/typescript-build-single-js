@@ -1,6 +1,6 @@
 # TypeScript Build Single JS
 
-A TypeScript app template with two build modes: **serve** and **build**.
+A TypeScript app template that builds into a single JS file and supports basic local static server.
 
 ## Features
 
