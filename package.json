@@ -1,0 +1,22 @@
+{
+  "name": "typescript-build-single-js",
+  "version": "1.0.0",
+  "description": "TypeScript app template with serve and build modes",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "serve": "node scripts/serve.js",
+    "build": "node scripts/build.js",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "esbuild": "^0.19.8",
+    "express": "^4.18.2",
+    "typescript": "^5.3.3"
+  }
+}
+
